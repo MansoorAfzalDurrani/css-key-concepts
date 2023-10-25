@@ -7,8 +7,8 @@
 li,a{
 font-family: "Montserrat", sans-serif;
 font-weight: 500;
-font-size: 16px;
-color: #53a931;
+font-size: 18px;
+color: #8fd56c;
 text-decoration: none;
 }
 header{
@@ -33,15 +33,178 @@ header{
 .nav_link li a:hover{
   color: #0088a9;
 }
-button{
+button {
   padding: 9px 25px;
   background-color:rgba(0,136 , 169, 1) ;
   border: none;
-  border-radius: 10px;
+  border-radius: 06px;
   cursor: pointer;
   transition: all 0.3s ease 0s;;
 }
 button:hover{
   background-color:rgba(0,136 , 169, 0.8) ;
 }
+.address_css{
+display: flex;
+background-color:#075b92;;
+justify-content: center;
+margin-bottom: 10px;
+padding-top: 0px;
+margin-top: 2px;
+font-size: 20px;
+}
+
+.search_container_css{
+  display: flex;
+  background: #8fd56c;
+  justify-content: center;
+  flex-direction: row;
+  border:1px;
+  padding-bottom: 8px;
+}
+.title_container_css{
+  display: flex;
+  background-color:#8fd56c ;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 5px;
+
+}
+.description_image_container,.form_video_container{
+  display: flex;
+  background-color: #8fd56c;
+  height: 500px;
+  }
+.description_box_css{
+display: flex;
+align-items: center;
+width: 450px;
+background-color: #8fd56c;
+}
+.image_address_box_css{
+    flex: 1;
+    background-color: #8fd56c ;
+    display: flex;
+    padding: 20px;
+
+    position: relative;
+    text-align: center;
+  
+  }
+ 
+  .surgery_image_css{
+   flex:1;
+   justify-content: center;
+   display: block;
+
+    }
+  
+  
+ address{
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: 30%;
+  border: 1px solid;
+  
+ }
+section{
+  background-color:lightgreen; 
+  padding-top:  10px; 
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px /solid ; 
+  margin: 0,0,0,0; 
+  font-size: 18px;
+}
+section h3,h2{
+  text-align: center;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  }
+
+.video_css{
+  height: 475px;
+  background-color:#8fd56c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px ;
+}
+
+
+
+label{
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #0c2102;;
+text-decoration: none
+}
+#site-search{
+  width: 200px;
+  height: 32px;
+}
+.search_button_css{
+  margin-left: 0;
+  font-size: 18px;
+  font-weight: bold; 
+  font-style: italic;
+}
+
+.form_css_hero {
+  
+  padding: 15px; 
+  display: flex;
+  flex-direction:row;
+
+  justify-content:center;
+  background-color: aqua;
+  margin-bottom: 20px;
+  }
+  .form_content_css{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background: pink;
+    
+  }
+ form,fieldset{
+  width:900px;
+  height: 380px;
+ }
+ legend{
+  font-size: 23px;
+  font-weight: 500;
+   }
+ 
+ text{
+  font-size: 18px;
+ }
+
+ 
+ input[type="text"],
+ input[type="lname"],
+ input[type="tel"],
+ input[type="date"],
+ input[type="email"],
+ textarea{
+  width: 300px;
+  padding: 5px;
+  margin: 6px;
+  border: 1px
+  }
+ 
+ input[type="submit"]{
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0,136 , 169, 0.8) ;
+  
+ }
 
